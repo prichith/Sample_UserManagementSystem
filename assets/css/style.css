@@ -1,0 +1,113 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+#site-main .container{
+    flex-direction: column;
+    align-items: center;
+}
+table {
+    border: 1px solid black;
+    margin-top: 15px;
+    }
+header{
+    background-color: rgb(73, 73, 201);
+    padding: 15px 0px;
+    margin-bottom: 10px;
+}
+.text-center a{
+    font-size: 25px;
+    font-weight: 700;
+    color: #FFF;
+    text-decoration: none;
+}
+.box-nav{
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+/* .border-shadow{
+    display: flex;
+} */
+.text-gradient{
+    color: green;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+a{
+    text-decoration: none;
+}
+thead tr{
+    background-color: #314e90;
+    color: #FFF;
+}
+tbody tr{
+    background-color: #52b3b6;
+}
+tbody tr:hover{
+    background-color: blue;
+    color: #FFF;
+}
+/* tbody tr:last-child:first-child{
+    color: #FFF;
+} */
+span{
+    color: black;
+}
+tbody tr th:last-child:first-child{
+    color: orangered;
+}
+
+
+/* add user */
+.filter{
+    padding: 8px 10px;
+}
+.new-user{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 15px;
+
+    margin-top: 20px;
+    border: 2px solid cadetblue;
+    padding: 20px;
+}
+.form-title h2{
+    text-align: center;
+    color: blue;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.form-title span{
+    font-size: 17px;
+    font-weight: 600;
+}
+/* .new-user:nth-child(5){
+    display: flex;
+    justify-content: center;
+} */
+.form-group:last-child{
+    display: flex;
+    justify-content: center;
+}
+.form-group:last-child button{
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: green;
+    font-weight: 700;
+}
+.form-group:last-child button:hover{
+    color: #FFF;
+    background-color: green;
+    border-color: green;
+}
